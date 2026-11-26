@@ -30,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
         &:hover {
             outline: none;
         }
+        
+        &:focus {
+            outline: none;
+        }
     }
 `;
 
