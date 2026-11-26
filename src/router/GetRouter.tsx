@@ -6,9 +6,7 @@ import SignUpPage from "../pages/auth/signup/SignUpPage.tsx";
 
 const router = createBrowserRouter([
     {
-        path: "/",
-        element: <MainLayout />,
-        children: [
+        path: "/", element: <MainLayout />, children: [
             { index: true, element: <HomePage /> },
             {
                 path: "auth",
